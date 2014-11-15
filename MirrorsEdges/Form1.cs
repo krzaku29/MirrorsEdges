@@ -15,5 +15,16 @@ namespace MirrorsEdges
         {
             InitializeComponent();
         }
+
+        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Mirror's Edges" + Environment.NewLine +
+                            "Projektant zwierciadeł z użyciem algorytmu ewolucyjnego");
+        }
+
+        private void zamknijToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

@@ -1,0 +1,8 @@
+D:\CSharp\MirrorsEdges\MirrorsEdges\bin\Debug\MirrorsEdges.exe
+D:\CSharp\MirrorsEdges\MirrorsEdges\bin\Debug\MirrorsEdges.pdb
+D:\CSharp\MirrorsEdges\MirrorsEdges\obj\x86\Debug\MirrorsEdges.csprojResolveAssemblyReference.cache
+D:\CSharp\MirrorsEdges\MirrorsEdges\obj\x86\Debug\MirrorsEdges.Form1.resources
+D:\CSharp\MirrorsEdges\MirrorsEdges\obj\x86\Debug\MirrorsEdges.Properties.Resources.resources
+D:\CSharp\MirrorsEdges\MirrorsEdges\obj\x86\Debug\MirrorsEdges.csproj.GenerateResource.Cache
+D:\CSharp\MirrorsEdges\MirrorsEdges\obj\x86\Debug\MirrorsEdges.exe
+D:\CSharp\MirrorsEdges\MirrorsEdges\obj\x86\Debug\MirrorsEdges.pdb

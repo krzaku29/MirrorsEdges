@@ -28,12 +28,77 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.plikToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.nowyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.zamknijToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip1.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.plikToolStripMenuItem,
+            this.aboutToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(863, 24);
+            this.menuStrip1.TabIndex = 0;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // plikToolStripMenuItem
+            // 
+            this.plikToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.nowyToolStripMenuItem,
+            this.zamknijToolStripMenuItem});
+            this.plikToolStripMenuItem.Name = "plikToolStripMenuItem";
+            this.plikToolStripMenuItem.Size = new System.Drawing.Size(38, 20);
+            this.plikToolStripMenuItem.Text = "Plik";
+            // 
+            // aboutToolStripMenuItem
+            // 
+            this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(52, 20);
+            this.aboutToolStripMenuItem.Text = "About";
+            this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
+            // 
+            // nowyToolStripMenuItem
+            // 
+            this.nowyToolStripMenuItem.Name = "nowyToolStripMenuItem";
+            this.nowyToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.nowyToolStripMenuItem.Text = "Nowy";
+            // 
+            // zamknijToolStripMenuItem
+            // 
+            this.zamknijToolStripMenuItem.Name = "zamknijToolStripMenuItem";
+            this.zamknijToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.zamknijToolStripMenuItem.Text = "Zamknij";
+            this.zamknijToolStripMenuItem.Click += new System.EventHandler(this.zamknijToolStripMenuItem_Click);
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Text = "Form1";
+            this.ClientSize = new System.Drawing.Size(863, 539);
+            this.Controls.Add(this.menuStrip1);
+            this.MainMenuStrip = this.menuStrip1;
+            this.Name = "Form1";
+            this.Text = "MirrorsEdges";
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
+
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem plikToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem nowyToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem zamknijToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
     }
 }
 
